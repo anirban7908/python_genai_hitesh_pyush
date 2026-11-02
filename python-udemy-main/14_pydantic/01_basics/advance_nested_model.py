@@ -42,10 +42,10 @@ class City(BaseModel):
     name: str
     state: State
 
-class Address(BaseModel):
-    street: str
-    city: City
-    postal_code: str
+# class Address(BaseModel):
+#     street: str
+#     city: City
+#     postal_code: str
 
 class Organization(BaseModel):
     name: str
